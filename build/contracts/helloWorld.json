@@ -1,0 +1,48 @@
+{
+  "contract_name": "HelloWorld",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "balance",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "deposit",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x60606040523415600b57fe5b5b6103e86000555b5b6096806100226000396000f300606060405263ffffffff60e060020a600035041663b69ef8a88114602a578063d0e30db0146049575bfe5b3415603157fe5b60376058565b60408051918252519081900360200190f35b3415605057fe5b6056605e565b005b60005481565b6000805460010190555b5600a165627a7a723058205ea2d99cd2fc5abc0b0f097fa3e46709cb4ebf3f88ee5d33793a345a2ef8567c0029",
+  "networks": {
+    "1498093826949": {
+      "events": {},
+      "links": {},
+      "address": "0x954378e740cf1dd71e06a82ab9844cc94ca89569",
+      "updated_at": 1498095840443
+    },
+    "1498096286733": {
+      "events": {},
+      "links": {},
+      "address": "0x38bb0a9ed72ba3d7866a02f3969e7c7ee016ddba",
+      "updated_at": 1498096644552
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1498096644552
+}
